@@ -16,5 +16,10 @@ namespace GitHomework
         {
             return Math.Pow(num, 3);
         }
+        static double CalculateCubeDouble(double num)
+        {
+            return num * num * num;
+        }
+
     }
 }
